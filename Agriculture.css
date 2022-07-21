@@ -1,0 +1,438 @@
+		.nav{
+	background-color: Black;
+	z-index: 2;
+	/*padding-left: 100px;
+	padding-right: 100px;*/
+	display: flex;
+	box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+	}
+.nav_top{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+
+
+}
+.logo{
+	float: left;
+	width: 50%;
+	height: 70%;
+}
+.logo img{
+	width:40%;
+	padding: 10px;
+	float: left;
+	margin-right: 200px;
+}
+.nav_side{
+	float: right;
+	width: 180%;
+	margin-top: 30px;
+}
+.nav_side a{
+	text-decoration: none;
+	margin-right: 30px;
+	color: white;
+	font-weight: bold;
+	font-family: cosmic,sans-serif;
+	font-size: 20px;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.nav_side a:hover{
+	color: green;
+	text-decoration: none;
+	transition: all 1s ease;
+}
+
+
+
+
+@media screen and (max-width:375px){
+	.nav {
+		display:grid;
+		
+	}
+	.nav .logo{
+		width:100%;
+	}
+	.nav .nav_side{
+		width:1%;
+		margin: auto;
+	}
+	/*.main{
+		height: 60vh;
+	}
+	.product .product_container{
+		display:grid;
+	}
+	.product .product_container .item{
+		width:100%;
+		margin: auto;
+	}*/
+} 
+
+@media screen and (max-width:414px){
+	.nav {
+		display:grid;
+		
+	}
+	.nav .logo{
+		width:100%;
+	}
+	.nav .nav_side{
+		width:1%;
+		margin: auto;
+	}
+	
+}
+
+
+
+.main{
+	background-image: url("D:/single page web/agri.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 80vh;
+	}
+.main{
+	padding-top: 100px;
+
+	
+}
+.main h2{
+	margin-top: 5%;
+	color: blue;
+	font-size: 50px;
+	padding-top: 10px;
+	font-family: cosmic,sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 25px;
+}
+.main  span{
+	margin-top:  50px;
+	font-size: 15px;
+	opacity: 0.7;
+	text-align: center;
+	color: navy;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+}
+.main .bttn{
+	margin-top: 50px;
+	text-align:left ;
+}
+.main .bttn a{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-left:50%;
+	padding: 10px 20px;
+	background-color: #041A27;
+	color: white;
+	font-family:cosmic,sans-serif;
+	border:2px solid green;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.main .bttn a:hover{
+	background-color: black;
+	color: green;
+	border: none;
+	border-bottom: 4px solid green;
+	transition: 0.5s;
+}
+.product{
+	padding-bottom: 50px;
+}
+.product h2{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding: 20px;
+}
+.product .product_container{
+	display: flex;
+	
+}
+.product .product_container .item{
+	width: 50%;
+	margin: 70px;
+	height: 30px;
+	border: 2px orange;
+	
+}
+.product .product_container .item .img{
+	width: 100%;
+	height: 250px;
+
+	overflow: hidden;
+}
+.product .product_container .item .item_img img{
+	width: 100%;
+	border-radius: 10%;
+	height: 250px;
+}
+.product .product_container .item .item_content{
+	text-align: center;
+
+}
+.product .product_container .item .item_content h3{
+	padding: 10px;
+	font-size: 25px;
+	color: red;
+	font-family: cosmic,sans-serif;
+	font-weight: bolder;
+}
+.product .product_container .item .item_content p{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	font-family: cosmic,sans-serif;
+}
+.product .product_container .item .item_content a{
+	text-decoration: none;
+	margin-top: 50px;
+	padding: 10px 20px;
+	background-color:  #041A27;
+	color: aqua;
+	font-family:cosmic,sans-serif;
+	border:3px solid navy;
+	border-radius: 15px;
+	transition: 0.5s;
+	opacity: 10px;
+}
+ .product .product_container .item .item_content a:hover{
+	background-color: navy;
+	color: red ;
+	border: none;
+	border-bottom: 5px solid navy;
+	transition: 0.5s;
+}
+.product .product_btn{
+	text-align: center;
+	margin-top: 300px;
+	padding:30px;
+}
+.product .product_btn a{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 50px;
+	padding: 10px 20px;
+	background-color:  #041A27;
+	color: aqua;
+	font-family:cosmic,sans-serif;
+	border:2px solid navy;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.product .product_btn a:hover{
+	background-color:navy;
+	color:  red;
+	border: none;
+	border-bottom: 4px solid navy;
+	transition: 0.5s;
+}
+.keypoint{
+	padding: 50px;
+	background-color: black;
+	background-image:url("D:/single page web/agrimain3.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.keypoint h2{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding: 20px;
+}
+.keypoint .key_container{
+	display: flex;
+}
+.keypoint .key_container .key_content{
+	width: 40%;
+	padding: 20px;
+	float: left;
+}
+.keypoint .key_container .key_content  li{
+	list-style: none;
+	margin: 10px;
+	padding:10px;
+	border-left: 4px  green;
+	border-right: 4px  green;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+	border-radius:10px;
+	color: #33B3FF;
+	text-align: left;
+	font-family: cosmic,sans-serif;
+	box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.keypoint .key_container .key_img{
+	width: 50%;
+	float: right;
+	margin-left: 120px;
+}
+.keypoint .key_container .key_img img{
+	width: 90%;
+	padding: 30px;
+	height: 550px;
+
+}
+.testi{
+	background-image:url("D:/single page web/agrimain3.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	padding: 50px;
+}
+.testi h2{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
+}
+.testi .testi_container{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+.testi .testi_container .carousel-inner{
+	background-color: white;
+	box-shadow: none;
+}
+.testi .testi_container .item{
+		width: 100%;
+		padding:20px;
+		background-color: white;
+		box-shadow: none;
+
+}
+.testi .testi_container .item .img{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+ .testi .testi_container.item .item_content{
+	text-align: center;
+	}
+.testi .testi_container .item .item_content h3{
+	padding: 10px;
+	font-size: 25px;
+	font-family: cosmic,sans-serif;
+}
+.testi .testi_container .item .item_content p{
+	padding: 10px;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+}
+
+footer .footer_logo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer{	
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .footer_content{
+	background-color: black;
+	font-size: 30px;
+	color:white;
+	font-family: cosmic,sans-serif;
+	padding: 30px;
+	margin-top:10px; 
+	border:2px solid white;
+	border-radius: 25px;
+}
+footer .pages{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .pages h3{
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .pages a{
+	text-decoration: none;
+	margin: 10px;
+	color: blue;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+}
+footer .pages a:hover{
+	color: yellowgreen;	
+}
+
+footer .social{
+	text-align: center;
+}
+footer .social h3{
+	color: black;
+	font-size: 30px;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .social a{
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+	margin: 10px;
+}
+footer .social a:hover{
+	color: yellowgreen;
+
+}
+
+
+footer .contact{
+	text-align: center;
+}
+footer .contact h3{
+	color: black;
+	font-size: 30px;
+	font-family: cosmic,sans-serif;
+	padding: 5px;
+}
+footer .contact a{
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+	margin: 10px;
+}
+footer .contact a:hover{
+	color: yellowgreen;
+}
+footer p{
+	text-align: center;
+}
+body{
+	background-color:black;
+}
